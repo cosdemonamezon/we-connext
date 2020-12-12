@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:condotoo/Screens/Home/home_screen.dart';
 import 'package:condotoo/Screens/Login/components/background.dart';
 import 'package:condotoo/Screens/Register/register_screen.dart';
@@ -28,9 +30,12 @@ class _BodyState extends State<Body> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              "LOGIN",
-              style: TextStyle(fontWeight: FontWeight.bold),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                "LOGIN",
+                style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
+              ),
             ),
             SvgPicture.asset(
               "assets/icons/flatcondo.svg",
@@ -40,6 +45,7 @@ class _BodyState extends State<Body> {
               hintText: "Your Email",
               onChanged: (value) {},
             ),
+            //TextField(),
             PasswordField(
               onChanged: (value) {},
             ),
@@ -63,6 +69,46 @@ class _BodyState extends State<Body> {
                   )
                 );
               },
+            ),
+            SizedBox(height: 25.0,),
+            Center(
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Quick login with Touch ID",
+                        style: TextStyle(color: kBtn, fontWeight: FontWeight.bold),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        CircleAvatar(
+                          backgroundImage: AssetImage("assets/images/fingerprint.jpg"),
+                          radius: 25.0,
+                          child: GestureDetector(
+                            onTap: (){},
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Touch ID",
+                        style: TextStyle(color: kBtn, fontWeight: FontWeight.bold),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ],
         ),

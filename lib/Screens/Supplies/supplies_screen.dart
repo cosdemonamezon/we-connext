@@ -1,4 +1,5 @@
 import 'package:condotoo/Screens/Supplies/components/details_supplies.dart';
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class SuppliesScreen extends StatefulWidget {
@@ -34,7 +35,7 @@ class _SuppliesScreenState extends State<SuppliesScreen> {
                       children: <Widget>[                        
                         Text(
                           "000100-2020", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -74,7 +75,7 @@ class _SuppliesScreenState extends State<SuppliesScreen> {
                       children: <Widget>[                        
                         Text(
                           "000101-2020", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 

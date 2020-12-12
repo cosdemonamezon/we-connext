@@ -33,7 +33,7 @@ class _ContackScreenState extends State<ContackScreen> {
                       children: <Widget>[                        
                         Text(
                           "แจ้งค่าน้ำเดือน 8", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -47,7 +47,7 @@ class _ContackScreenState extends State<ContackScreen> {
                       children: <Widget>[
                         Text(
                           "ขอแจ้งยอดค่าน้ำเดือน 8", 
-                          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+                          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "รอตอบกลับ", 
@@ -73,7 +73,7 @@ class _ContackScreenState extends State<ContackScreen> {
                       children: <Widget>[                        
                         Text(
                           "แจ้งค่าไฟเดือน 8", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -87,7 +87,7 @@ class _ContackScreenState extends State<ContackScreen> {
                       children: <Widget>[
                         Text(
                           "ขอแจ้งยอดค่าไฟเดือน 8", 
-                          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+                          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "รอตอบกลับ", 

@@ -1,3 +1,4 @@
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class DetailsPublish extends StatefulWidget {
@@ -50,20 +51,20 @@ class _DetailsPublishState extends State<DetailsPublish> {
             children: <Widget>[
               Row(
                 children: <Widget>[
-                  Icon(Icons.alarm_on, size: 40, color: Colors.redAccent,),
+                  Icon(Icons.alarm_on, size: 40, color: Colors.orange,),
                   SizedBox(width: 10.0),
                   Text(
                     "15 สิงหาคม 2563 - 18 สิงหาคม 2563", 
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                   ),
                 ],
               ),
               Row(
                 children: <Widget>[
-                  Icon(Icons.room, size: 40, color: Colors.redAccent,),
+                  Icon(Icons.room, size: 40, color: Colors.orange,),
                   SizedBox(width: 10.0),
                   Text(
-                    "ลานอเนกประสงค์ ข้างที่จอดรถ", style: TextStyle(fontWeight: FontWeight.bold),
+                    "ลานอเนกประสงค์ ข้างที่จอดรถ", style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                   ),
                 ],
               ),
@@ -72,9 +73,9 @@ class _DetailsPublishState extends State<DetailsPublish> {
               SizedBox(height: 15.0,),
               Row(
                 children: <Widget>[
-                  Icon(Icons.assignment, size: 40, color: Colors.redAccent,),
+                  Icon(Icons.assignment, size: 40, color: Colors.orange,),
                   SizedBox(width: 10.0),
-                  Text("รายละเอียด", style: TextStyle(fontWeight: FontWeight.bold)),
+                  Text("รายละเอียด", style: TextStyle(fontWeight: FontWeight.bold, color: kBtn)),
                 ],
               ),
               SizedBox(height: 15.0,),
@@ -84,7 +85,7 @@ class _DetailsPublishState extends State<DetailsPublish> {
                   children: <Widget>[
                     Text(
                       "นิติบุคคลจะทำการซ้อมอพยบหนีไฟในวันจันทร์",
-                      style: TextStyle(fontWeight: FontWeight.bold)
+                      style: TextStyle(fontWeight: FontWeight.bold, color: kBtn)
                     ),
                   ],
                 ),
@@ -93,7 +94,7 @@ class _DetailsPublishState extends State<DetailsPublish> {
                 padding: EdgeInsets.symmetric(horizontal: 10.0,),
                 child: Row(
                   children: <Widget>[
-                    Text("ที่ 14 สิงหาคม 2563", style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("ที่ 14 สิงหาคม 2563", style: TextStyle(fontWeight: FontWeight.bold, color: kBtn)),
                   ],
                 ),
               ),
@@ -109,7 +110,7 @@ class _DetailsPublishState extends State<DetailsPublish> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         gradient: LinearGradient(
-                          colors: [Colors.pink, Colors.pinkAccent, Colors.purpleAccent],
+                          colors: [Colors.orange, Colors.pinkAccent, Colors.orangeAccent],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),

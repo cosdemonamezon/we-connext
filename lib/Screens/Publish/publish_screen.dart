@@ -1,4 +1,5 @@
 import 'package:condotoo/Screens/Publish/components/details_publish.dart';
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class PublishScreen extends StatefulWidget {
@@ -36,7 +37,7 @@ class _PublishScreenState extends State<PublishScreen> {
                       children: <Widget>[                        
                         Text(
                           "แจ้งฉีดกำจัดยุง", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -72,7 +73,7 @@ class _PublishScreenState extends State<PublishScreen> {
                       children: <Widget>[                        
                         Text(
                           "การซ้อมอพยบหนีไฟ", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 

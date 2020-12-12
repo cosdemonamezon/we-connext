@@ -1,4 +1,5 @@
 import 'package:condotoo/Screens/Invoice/components/details_invoice.dart';
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class InvoiceScreen extends StatefulWidget {
@@ -24,13 +25,13 @@ class _InvoiceScreenState extends State<InvoiceScreen> {
               children: <Widget>[
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.insert_drive_file, color: Colors.purple, size: 35,),
+                    leading: Icon(Icons.insert_drive_file, color: Colors.orangeAccent, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ค่าไฟ ห้อง 402/2", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -60,13 +61,13 @@ class _InvoiceScreenState extends State<InvoiceScreen> {
                 ),
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.insert_drive_file, color: Colors.purple, size: 35,),
+                    leading: Icon(Icons.insert_drive_file, color: Colors.orangeAccent, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ค่าน้ำ ห้อง 401/3", 
-                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orangeAccent),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 

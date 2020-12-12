@@ -58,6 +58,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),
@@ -79,6 +80,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),
@@ -94,6 +96,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),
@@ -114,6 +117,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),
@@ -129,6 +133,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),
@@ -149,6 +154,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),
@@ -175,6 +181,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),
@@ -190,6 +197,7 @@ class _MenuState extends State<Menu> {
                   fontWeight: FontWeight.bold,
                   fontFamily: "nunito",
                   fontSize: 18.0,
+                  color: kBtn
                 ),
               ),
               trailing: Icon(Icons.arrow_right),

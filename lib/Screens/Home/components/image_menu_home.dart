@@ -52,7 +52,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "พัสดุ", 
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -74,7 +74,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "แจ้งหนี้",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -96,7 +96,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "ประกาศ",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -127,7 +127,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "แจ้งซ่อม",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -149,7 +149,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "ติดต่อ",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -171,7 +171,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "จอง",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -202,7 +202,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "ข่าวสาร",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -224,7 +224,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "รักษาความ \n ปลอดภัย",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -246,7 +246,7 @@ class ImageMenuHome extends StatelessWidget {
                           ),
                           Text(
                             "สมาร์ทโฮม",
-                            style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+                            style: TextStyle(color: kBtn, fontWeight: FontWeight.bold, fontSize: kfontSize),
                           ),
                         ],
                       ),
@@ -254,33 +254,33 @@ class ImageMenuHome extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: EdgeInsets.symmetric(vertical: 30.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Column(
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: AssetImage("assets/images/talk1.png"),
-                          radius: radius,
-                          child: GestureDetector(
-                            onTap: (){
-                              Navigator.push(
-                                context, MaterialPageRoute(builder: (context){return ChatScreen();})
-                              );
-                            },
-                          ),
-                        ),
-                        Text(
-                          "แชท",
-                          style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
+              // Padding(
+              //   padding: EdgeInsets.symmetric(vertical: 30.0),
+              //   child: Row(
+              //     mainAxisAlignment: MainAxisAlignment.center,
+              //     children: [
+              //       Column(
+              //         children: [
+              //           CircleAvatar(
+              //             backgroundImage: AssetImage("assets/images/talk1.png"),
+              //             radius: radius,
+              //             child: GestureDetector(
+              //               onTap: (){
+              //                 Navigator.push(
+              //                   context, MaterialPageRoute(builder: (context){return ChatScreen();})
+              //                 );
+              //               },
+              //             ),
+              //           ),
+              //           Text(
+              //             "แชท",
+              //             style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: kfontSize),
+              //           ),
+              //         ],
+              //       ),
+              //     ],
+              //   ),
+              // ),
             ],
           ),
         ),

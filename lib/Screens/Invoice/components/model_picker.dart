@@ -1,3 +1,4 @@
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class ModelPicker extends StatelessWidget {
@@ -10,6 +11,7 @@ class ModelPicker extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return Container(
+          color: kPrimarybackgroundColor,
           height: 200.0,
           // width: 300.0,
           // alignment: Alignment.center,
@@ -75,7 +77,10 @@ class ModelPicker extends StatelessWidget {
       child: Container(
         width: 160.0,
         height: 160.0,
-        color: Colors.blue,
+        //color: kPrimarybackgroundColor,
+        child: Image(
+          image: AssetImage("assets/images/578375a.jpg"),
+        ),
       ),
     );
   }

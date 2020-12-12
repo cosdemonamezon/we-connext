@@ -1,4 +1,5 @@
 import 'package:condotoo/Screens/Repair/components/details_repair.dart';
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class RepairScreen extends StatefulWidget {
@@ -30,13 +31,13 @@ class _RepairScreenState extends State<RepairScreen> {
               children: <Widget>[
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.developer_board, color: Colors.blueAccent, size: 35,),
+                    leading: Icon(Icons.developer_board, color: Colors.orange, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ทดสอบแจ้งซ่อม 1", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.redAccent[700]),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -50,7 +51,7 @@ class _RepairScreenState extends State<RepairScreen> {
                       children: <Widget>[
                         Text(
                           "ทดสอบ",
-                          style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: Colors.redAccent[700])
+                          style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: kBtn)
                         ),
                         Text(
                           "ขอปิดงาน",
@@ -70,13 +71,13 @@ class _RepairScreenState extends State<RepairScreen> {
                 ),
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.developer_board, color: Colors.blueAccent, size: 35,),
+                    leading: Icon(Icons.developer_board, color: Colors.orange, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ทดสอบแจ้งซ่อม 2", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.redAccent[700]),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -90,7 +91,7 @@ class _RepairScreenState extends State<RepairScreen> {
                       children: <Widget>[
                         Text(
                           "ทดสอบ",
-                          style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: Colors.redAccent[700])
+                          style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: kBtn)
                         ),
                         Text(
                           "ขอปิดงาน",

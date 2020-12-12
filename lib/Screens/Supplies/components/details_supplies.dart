@@ -1,3 +1,6 @@
+import 'dart:ui';
+
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class DetailsSupplies extends StatefulWidget {
@@ -64,12 +67,12 @@ class _DetailsSuppliesState extends State<DetailsSupplies> {
                       SizedBox(height: 30.0,),
                       Text(
                         "รหัสรับพัสดุ", 
-                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.orange),
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: kBtn),
                       ),
                       SizedBox(height: 20.0,),
                       Text(
                         "000100-2020",
-                        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.orange)
+                        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: kBtn)
                       ),
                       SizedBox(height: 35.0,),
                       RaisedButton(
@@ -96,12 +99,14 @@ class _DetailsSuppliesState extends State<DetailsSupplies> {
                         radius: 30.0,
                       ),
                       SizedBox(height: 10.0,),
-                      Text("สถานะ : รอรับ"),
+                      Text("สถานะ : รอรับ", style: TextStyle(color: kBtn),),
                       SizedBox(height: 10.0,),
-                      Text("รายละเอียด :"),
+                      Text("รายละเอียด :", style: TextStyle(color: kBtn),),
                       SizedBox(height: 10.0,),
                       RaisedButton(
-                        child: Text("กดดูขั้นตอนการรับพัสดุ"),
+                        color: Colors.orangeAccent,
+                        elevation: 11.0,
+                        child: Text("กดดูขั้นตอนการรับพัสดุ", style: TextStyle(color: kPrimaryLightColor),),
                         onPressed: (){},
                       ),
                     ],

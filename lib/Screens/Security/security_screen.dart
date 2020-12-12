@@ -1,4 +1,5 @@
 import 'package:condotoo/Screens/Security/components/details_security.dart';
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class SecurityScreen extends StatefulWidget {
@@ -14,7 +15,7 @@ class _SecurityScreenState extends State<SecurityScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.redAccent[700],
+        backgroundColor: kThemeColor,
         title: Text(
           "รักษาความปลอดภัย", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)
         ),
@@ -39,13 +40,13 @@ class _SecurityScreenState extends State<SecurityScreen> {
               children: <Widget>[
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.verified_user, color: Colors.redAccent[700], size: 35,),
+                    leading: Icon(Icons.verified_user, color: Colors.orange, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ทดสอบติดต่อครั้งที่ 10", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.redAccent[700]),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -56,7 +57,7 @@ class _SecurityScreenState extends State<SecurityScreen> {
                     ),
                     subtitle: Text(
                       "วันที่นัดหมาย 30/08/2020 17.30",
-                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: Colors.redAccent[700])
+                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: kBtn)
                     ),
                     onTap: (){
                       Navigator.push(
@@ -70,13 +71,13 @@ class _SecurityScreenState extends State<SecurityScreen> {
                 ),
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.verified_user, color: Colors.redAccent[700], size: 35,),
+                    leading: Icon(Icons.verified_user, color: Colors.orange, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ทดสอบติดต่อครั้งที่ 11", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.redAccent[700]),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -87,7 +88,7 @@ class _SecurityScreenState extends State<SecurityScreen> {
                     ),
                     subtitle: Text(
                       "วันที่นัดหมาย 30/08/2020 17.30",
-                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: Colors.redAccent[700])
+                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: kBtn)
                     ),
                     onTap: (){
                       Navigator.push(

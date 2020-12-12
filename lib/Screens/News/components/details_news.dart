@@ -60,11 +60,11 @@ class _DetailsNewsState extends State<DetailsNews> {
                 padding: EdgeInsets.symmetric(horizontal: 25.0, vertical: 3.0),
                 child: Row(
                   children: <Widget>[
-                    Icon(Icons.history, color: Colors.green,),
+                    Icon(Icons.history, color: Colors.orangeAccent,),
                     SizedBox(width: 10.0,),
                     Text(
                       "30 August 2020 - 31 Desember 2020",
-                      style: TextStyle(fontSize: 15,)
+                      style: TextStyle(fontSize: 15, color: kBtn)
                       ),
                   ],
                 ),
@@ -73,11 +73,11 @@ class _DetailsNewsState extends State<DetailsNews> {
                 padding: EdgeInsets.symmetric(horizontal: 25.0, vertical: 3.0),
                 child: Row(
                   children: <Widget>[
-                    Icon(Icons.room, color: Colors.green,),
+                    Icon(Icons.room, color: Colors.orangeAccent,),
                     SizedBox(width: 10.0,),
                     Text(
                       "Bangkok",
-                      style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)
+                      style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: kBtn)
                     ),
                   ],
                 ),
@@ -89,10 +89,10 @@ class _DetailsNewsState extends State<DetailsNews> {
                 padding: EdgeInsets.symmetric(horizontal: 25.0, vertical: 3.0),
                 child: Row(
                   children: <Widget>[
-                    Icon(Icons.assignment, size: 28, color: Colors.green,),
+                    Icon(Icons.assignment, size: 28, color: Colors.orangeAccent,),
                     SizedBox(width: 10.0,),
                     Text(
-                      "รายละเอียด", style: TextStyle(fontSize: 13,),
+                      "รายละเอียด", style: TextStyle(fontSize: 13, color: kBtn),
                     ),
                   ],
                 ),
@@ -106,43 +106,43 @@ class _DetailsNewsState extends State<DetailsNews> {
                       children: <Widget>[
                         Padding(
                           padding: const EdgeInsets.all(1.0),
-                          child: Text("โครงการคอนโดใหม่ทำเลเยี่ยม", style: TextStyle(fontSize: 13,)),
+                          child: Text("โครงการคอนโดใหม่ทำเลเยี่ยม", style: TextStyle(fontSize: 13, color: kBtn)),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(1.0),
-                          child: Text("ตอบโจทย์ทกไลฟ์สไตล์การใช้งาน", style: TextStyle(fontSize: 13,)),
+                          child: Text("ตอบโจทย์ทกไลฟ์สไตล์การใช้งาน", style: TextStyle(fontSize: 13, color: kBtn)),
                         ),
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 1.0, vertical: 15.0),
                           child: Text(
                             "สามารถดูรายละเอียดได้ที่ https:www.google.com",
-                            style: TextStyle(fontSize: 13,)
+                            style: TextStyle(fontSize: 13, color: kBtn)
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(1.0),
-                          child: Text("ติดต่อสอบถาม", style: TextStyle(fontSize: 13,)),
+                          child: Text("ติดต่อสอบถาม", style: TextStyle(fontSize: 13, color: kBtn)),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(1.0),
-                          child: Text("เบอร์โทร 0922685443", style: TextStyle(fontSize: 13,)),
+                          child: Text("เบอร์โทร 0922685443", style: TextStyle(fontSize: 13, color: kBtn)),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(1.0),
                           child: Text(
                             "หรือแชทผ่านทาง Line Officail Account",
-                            style: TextStyle(fontSize: 13,)
+                            style: TextStyle(fontSize: 13, color: kBtn)
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(1.0),
-                          child: Text("@condonaja", style: TextStyle(fontSize: 13,)),
+                          child: Text("@condonaja", style: TextStyle(fontSize: 13, color: kBtn)),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(1.0),
                           child: Text(
                             "https://line.me/C/ti/p/%4Dvgh2567B",
-                            style: TextStyle(fontSize: 13,)
+                            style: TextStyle(fontSize: 13, color: kBtn)
                           ),
                         ),
                       ],
@@ -155,7 +155,7 @@ class _DetailsNewsState extends State<DetailsNews> {
                 child: Row(
                   children: <Widget>[
                     Text(
-                      "*เงื่อนใขเป็นไปตามที่บริษัทกำหนด", style: TextStyle(fontSize: 13,)
+                      "*เงื่อนใขเป็นไปตามที่บริษัทกำหนด", style: TextStyle(fontSize: 13, color: kBtn)
                     ),
                   ],
                 ),

@@ -227,7 +227,7 @@ class _TabOne_DetailsState extends State<TabOne_Details> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   gradient: LinearGradient(
-                    colors: [Colors.pink, Colors.pinkAccent, Colors.purpleAccent],
+                    colors: [Colors.orange, Colors.pinkAccent, Colors.orangeAccent],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),

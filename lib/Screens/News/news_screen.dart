@@ -26,9 +26,9 @@ class _NewsScreenState extends State<NewsScreen> {
         actions: <Widget>[
           Row(
             children: <Widget>[
-              Icon(Icons.description, size: 30, color: Colors.green,),
+              Icon(Icons.description, size: 30, color: Colors.white,),
               Text("|", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
-              Icon(Icons.all_out, size: 30, color: Colors.green,)
+              Icon(Icons.all_out, size: 30, color: Colors.white,)
             ],
           ),
         ],
@@ -41,13 +41,13 @@ class _NewsScreenState extends State<NewsScreen> {
               children: <Widget>[
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.description, color: Colors.green, size: 35,),
+                    leading: Icon(Icons.description, color: Colors.orangeAccent, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "โครงการคอนโดใหม่ \n ทำเลดี", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.greenAccent),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -68,13 +68,13 @@ class _NewsScreenState extends State<NewsScreen> {
                 ),
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.description, color: Colors.green, size: 35,),
+                    leading: Icon(Icons.description, color: Colors.orangeAccent, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "โครงการรถไฟฟ้า BTS", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.greenAccent),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 

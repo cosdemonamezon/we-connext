@@ -46,13 +46,13 @@ class _BookScreenState extends State<BookScreen> {
               children: <Widget>[
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.developer_board, color: Colors.blueAccent, size: 35,),
+                    leading: Icon(Icons.developer_board, color: Colors.orange, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ห้องประชุม 1", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.redAccent[700]),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -63,7 +63,7 @@ class _BookScreenState extends State<BookScreen> {
                     ),
                     subtitle: Text(
                       "30/08/2020 17.30",
-                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: Colors.redAccent[700])
+                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: kBtn)
                     ),
                     onTap: (){
                       Navigator.push(
@@ -77,13 +77,13 @@ class _BookScreenState extends State<BookScreen> {
                 ),
                 Card(
                   child: ListTile(
-                    leading: Icon(Icons.developer_board, color: Colors.blueAccent, size: 35,),
+                    leading: Icon(Icons.developer_board, color: Colors.orange, size: 35,),
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[                        
                         Text(
                           "ลู่วิ่ง 2", 
-                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.redAccent[700]),
+                          style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "30/08/2020", 
@@ -94,7 +94,7 @@ class _BookScreenState extends State<BookScreen> {
                     ),
                     subtitle: Text(
                       "30/08/2020 17.30",
-                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: Colors.redAccent[700])
+                      style: TextStyle(fontSize: 13,fontWeight: FontWeight.bold, color: kBtn)
                     ),
                     onTap: (){
                       Navigator.push(

@@ -1,4 +1,5 @@
 import 'package:condotoo/Screens/Invoice/components/model_picker.dart';
+import 'package:condotoo/constants.dart';
 import 'package:flutter/material.dart';
 
 class DetailsInvoice extends StatefulWidget {
@@ -32,7 +33,7 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
               children: <Widget>[
                 Row(
                   children: <Widget>[
-                    Icon(Icons.insert_drive_file, size: 25, color: Colors.purple),
+                    Icon(Icons.insert_drive_file, size: 25, color: Colors.white),
                     Text("|", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
                     Icon(Icons.all_out, size: 25,)
                   ],
@@ -52,33 +53,33 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
             children: <Widget>[
               Row(
                 children: <Widget>[
-                  Icon(Icons.alarm, size: 40, color: Colors.purple,),
+                  Icon(Icons.alarm, size: 40, color: Colors.orangeAccent,),
                   SizedBox(width: 10.0,),
                   Text(
                     "กำหนดชำระ 06/09/2020 ",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: kBtn),
                   ),
                 ],
               ),
               SizedBox(height: 10.0,),
               Row(
                 children: <Widget>[
-                  Icon(Icons.receipt, size: 40, color: Colors.purple,),
+                  Icon(Icons.receipt, size: 40, color: Colors.orangeAccent,),
                   SizedBox(width: 10.0,),
                   Text(
                     "เลขที่ใบแจ้งหน้ ACHA-IV000108 \n งวดที่ 1 ",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: kBtn),
                   ),
                 ],
               ),
               SizedBox(height: 10.0,),
               Row(
                 children: <Widget>[
-                  Icon(Icons.home, size: 40, color: Colors.purple,),
+                  Icon(Icons.home, size: 40, color: Colors.orangeAccent,),
                   SizedBox(width: 10.0,),
                   Text(
                     "ห้อง : 401/3",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: kBtn),
                   ),
                 ],
               ),
@@ -94,11 +95,11 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
                       children: <Widget>[
                         Text(
                           "เลขมิเตอร์ก่อน",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "18456.0",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                       ],
                     ),
@@ -107,11 +108,11 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
                       children: <Widget>[
                         Text(
                           "เลขมิเตอร์หลัง",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "18556.0",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                       ],
                     ),
@@ -120,11 +121,11 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
                       children: <Widget>[
                         Text(
                           "ใช้น้ำไปทั้งหมด",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "100.0 หน่วย",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                       ],
                     ),
@@ -142,11 +143,11 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
                       children: <Widget>[
                         Text(
                           "ราคาต่อหน่วย",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "5.0 บาท",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                       ],
                     ),
@@ -155,11 +156,11 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
                       children: <Widget>[
                         Text(
                           "คิดเป็นเงิน",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                         Text(
                           "500.0 บาท",
-                          style: TextStyle(fontWeight: FontWeight.bold,),
+                          style: TextStyle(fontWeight: FontWeight.bold, color: kBtn),
                         ),
                       ],
                     ),
@@ -179,7 +180,7 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
                         padding: EdgeInsets.all(10.0),
                         child: Text(
                           "อัพโหลดภาพใบเสร็จ",
-                          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: kBtn),
                         ),
                       ),
                       ModelPicker(), //เลือกรูป และ กล้อง
@@ -214,7 +215,7 @@ class _DetailsInvoiceState extends State<DetailsInvoice> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
                         gradient: LinearGradient(
-                          colors: [Colors.pink, Colors.pinkAccent, Colors.purpleAccent],
+                          colors: [Colors.orange, Colors.pinkAccent, Colors.orangeAccent],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
